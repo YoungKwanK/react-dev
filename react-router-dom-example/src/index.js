@@ -45,6 +45,7 @@ function Topics(){
     lis.push(
       <li key={contents[i].id}><NavLink to={"/topics/" + contents[i].id}>{contents[i].title}</NavLink></li>
     );
+    
   }
   return(
     <div>
